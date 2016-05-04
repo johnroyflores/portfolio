@@ -209,9 +209,22 @@ h2,p {
 		margin-left: 20px;
 	}
 
+	.textbox {
+		length: 3;
+	}
+
 }
 
 
 @media screen and (max-width: 640px) {
-
+	.header{
+		position:static;
+	}
+	.mainSection {
+			width:600px;
+			overflow: auto;
+			margin: 30px;
+			box-sizing: border-box;
+			
+		}
 	}
